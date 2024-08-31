@@ -6,3 +6,17 @@ export default function after(times, func) {
     }
   };
 }
+
+
+// Test this Method
+
+let x = function (){
+  console.log('Hello World');
+}
+
+let y = after(5, x);
+y();
+y();
+y();
+
+// This is some magic
