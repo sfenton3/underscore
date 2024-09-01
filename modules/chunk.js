@@ -11,3 +11,13 @@ export default function chunk(array, count) {
   }
   return result;
 }
+
+// Test Method
+let arr = ['apple', 'cider', 'orange', 'pineapple'];
+console.log("🚀 ~ arr:", chunk(arr, 2));
+console.log("🚀 ~ arr:", chunk(arr, 3));
+
+
+// Arrays within array
+// fills arrays with last array being different size if count is not mod 0
+

@@ -11,3 +11,5 @@ export default restArguments(function(func, context, args) {
   });
   return bound;
 });
+
+
